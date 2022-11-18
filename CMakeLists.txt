@@ -34,8 +34,8 @@ file(MAKE_DIRECTORY ${CATKIN_DEVEL_PREFIX}/include)
 
 # let's pull in the okvis plain cmake project
 set(BUILD_SHARED_LIBS OFF)
-add_subdirectory(okvis)
 
+add_subdirectory(okvis)
 
 # libvisensor
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/okvis/cmake")
